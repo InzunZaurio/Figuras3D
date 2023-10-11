@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_esfera"
+        android:title="Esfera" />
+    <item
+        android:id="@+id/action_cilindro"
+        android:title="Cilindro" />
+    <item
+        android:id="@+id/action_cono"
+        android:title="Cono" />
+</menu>

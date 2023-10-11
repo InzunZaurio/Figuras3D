@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnEsfera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esfera"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnCilindro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cilindro"
+        android:layout_below="@id/btnEsfera"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnCono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cono"
+        android:layout_below="@id/btnCilindro"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnCubo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cubo"
+        android:layout_below="@id/btnCono"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
